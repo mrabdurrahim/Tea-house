@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea House</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- fontawesome cdn -->
+  <script src="https://kit.fontawesome.com/7dcd80a878.js" crossorigin="anonymous"></script>
+  <!-- tailwind cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <!-- main content -->
+  <main class="px-16 mx-auto main-w-screen-xl lg:px-28">
+    <header class="pt-10 mb-20 lg:flex">
+      <!-- text content -->
+      <div>
+        <h1 class="text-5xl md:text-7xl">It's good <br> tea time at The <br> Tea House</h1>
+        <br>
+        <p class="w-3/4 text-gray-500">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+        <br>
+        <button class="px-5 py-3 font-bold bg-gradient-to-r from-orange-500 to-red-600 rounded-xl">Explore More <i class="text-xl -rotate-45 fa-solid fa-arrow-right"></i></button>
+      </div>
+      <!-- image content -->
+      <div>
+        <!-- image -->
+         <div class="relative">
+          <img class="w-full" src="./images/banner.png" alt="">
+         </div>
+         <!-- card -->
+          <div class="absolute flex items-center px-2 py-2 bg-white rounded-lg shadow-lg md:px-4 lg:py-4 top-32 md:top-72 md:right-60">
+            <i class="text-2xl fa-solid fa-star text-amber-500"></i>
+            <div class="ml-2">
+              <h2 class="font-bold lg:text-2xl">5.00</h2>
+              <p class="text-sm text-gray-600">Trust Pilot Ratings</p>
+            </div>
+          </div>
+      </div>
+    </header>
+    <!-- Featured products section -->
+     <section class=py-8 bg:py-24>
+      <!-- title -->
+      <div class="mb-8 text-center">
+        <h3 class="mb-2 text-3xl md:text-4xl font-blod">Our Featured Products</h3>
+        <p class="max-w-xl mx-auto text-gray-600">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+      </div>
+      <!-- grid cards -->
+       <div class="grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4">
+        <!-- product card -->
+        <div class="overflow-hidden shadow-md bg-gray-50 rounded-xl">
+          <img class="pt-4 mx-auto" src="./images/tea-1.png" alt="">
+          <div class="p-4">
+            <h2 class="text-xl font-bold">Milk Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+          </div>         
+        </div>
+        <!-- product card -->
+        <div class="overflow-hidden shadow-md bg-gray-50 rounded-xl">
+          <img class="pt-4 mx-auto" src="./images/tea-2.png" alt="">
+          <div class="p-4">
+            <h2 class="text-xl font-bold">Black Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+          </div>         
+        </div>
+        <!-- product card -->
+        <div class="overflow-hidden shadow-md bg-gray-50 rounded-xl">
+          <img class="pt-4 mx-auto" src="./images/tea-3.png" alt="">
+          <div class="p-4">
+            <h2 class="text-xl font-bold">Lemon Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+          </div>         
+        </div>
+        <!-- product card -->
+        <div class="overflow-hidden shadow-md bg-gray-50 rounded-xl">
+          <img class="pt-4 mx-auto" src="./images/tea-4.png" alt="">
+          <div class="p-4">
+            <h2 class="text-xl font-bold">Green Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+          </div>         
+        </div>       
+       </div>
+     </section>
+     <!-- great tea section -->
+     <section class="mb-24">
+      <div class="grid grid-cols-1 lg:grid-cols-2">
+        <!-- image section -->
+        <div class="grid w-5/6 grid-cols-2 grid-rows-3 gap-4">
+          <div class="rounded-lg h-38 bg-gradient-to-r from-red-300 to-red-200"> 
+          </div>
+          <div class="row-span-2 rounded-lg bg-orange-100">
+            <img class="mx-auto my-5" src="./images/fresh-1.png" alt="">
+          </div>
+          <div class="row-span-2 rounded-lg bg-green-100">
+            <img class="mx-auto my-5" src="./images/fresh-2.png" alt="">
+          </div>
+          <div class="rounded-lg h-38 bg-gradient-to-r from-stone-300 to-stone-200"> 
+          </div>
+        </div>
+          <!-- text section -->
+        <div>
+          <div>
+          <h1 class="mb-5 text-5xl font-bold">Great Tea, Freshly Presented</h1>
+          <p class="text-gray-500">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+          <br>
+          <h4 class="mb-5 text-2xl font-bold">Unique Taste</h4>
+          <br>
+          <p class="text-gray-500">A Unique and different style from other teapots gives a    luxurious and minimalist impression</p>
+          <br>
+          <h4 class="mb-5 text-2xl font-bold">Premium Quality</h4>
+          <br>
+          <p class="text-gray-500">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+          </div>
+        </div>
+      </div>    
+     </section>
+     <!-- review section -->
+     <section class="mb-24">
+      <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg grid grid-cols-1 lg:grid-cols-2 text-white px-7 md:px-16">
+        <!-- text section -->
+        <div class="flex justify-center items-center overflow-hidden">
+          <div class="w-5/6">
+            <h1 class="text-5xl font-bold mb-5 mt-10">Meet Our Super Clients</h1>
+            <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi molestias fuga error cumque nam eum nihil, consequatur cum distinctio debitis doloribus, quibusdam assumenda quidem aperiam, saepe numquam temporibus deleniti suscipit.
+            </p>
+            <button class="text-white bg-orange-700 px-3 py-2 rounded-lg">Show All</button>
+          </div>
+        </div>
+        <!-- review card section -->
+        <div class="relative py-24">
+          <!-- front card -->
+          <div class="absolute z-10 top-44 md:top-56 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5">
+            <div class="absolute -top-5 -left-5 bg-white rounded-full">
+              <img src="./images/client.png" alt="">
+            </div>
+            <div>
+              <p class="text-gray-500 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur natus in placeat deleniti corrupti velit?</p>
+              <h1 class="font-bold">Ilham Pandey</h1>
+              <small class="font-bold text-gray-500">Businessman</small>
+            </div>
+          </div>          
+          <!-- top card -->
+          <div class="relative left-8 md:left-32 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40">
+            <div class="absolute -top-5 -left-5 bg-white rounded-full">
+              <img src="./images/client.png" alt="">
+            </div>
+            <div>
+              <p class="text-gray-500 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur natus in placeat deleniti corrupti velit?</p>
+              <h1 class="font-bold">Ilham Pandey</h1>
+              <small class="font-bold text-gray-500">Businessman</small>
+            </div>
+          </div>
+        <!-- bottom card -->
+          <div class=" top-10 relative left-8 md:left-32 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40">
+            <div class="absolute -top-5 -left-5 bg-white rounded-full">
+              <img src="./images/client.png" alt="">
+            </div>
+            <div>
+              <p class="text-gray-500 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur natus in placeat deleniti corrupti velit?</p>
+              <h1 class="font-bold">Ilham Pandey</h1>
+              <small class="font-bold text-gray-500">Businessman</small>
+            </div>
+          </div>       
+        </div>
+     </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
